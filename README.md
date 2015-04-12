@@ -1,5 +1,5 @@
 # tools
-
+## 5秒おきにスクリーンショットをとるcron
 ```
 # homeに移動
 $ cd
@@ -24,4 +24,7 @@ $ chmod +x capture.sh
 $ crontab -e
 
 * * * * * ~/ss/capture.sh
+
+# 1分くらいしたら確認
+$ ls ~/ss/ 
 ```
