@@ -1,10 +1,11 @@
 # tools
 
 ```
+# homeに移動
 $ cd
 $ mkdir ss
 $ cd ss
-$ touch capture.sh
+$ git clone https://xxxxxxxxxxx
 $ chmod +x capture.sh
 ```
 
