@@ -1,7 +1,11 @@
 # tools
 
 ```
-hmod +x capture.sh
+$ cd
+$ mkdir ss
+$ cd ss
+$ touch capture.sh
+$ chmod +x capture.sh
 ```
 
 ```
