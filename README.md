@@ -23,9 +23,12 @@ $ chmod +x capture.sh
 
 ```
 $ crontab -e
-
+# 以下のように追記
 * * * * * ~/ss/capture.sh
 
 # 1分くらいしたら確認
 $ ls ~/ss/ 
+
+# 止める時(# を先頭に追記)
+# * * * * * ~/ss/capture.sh
 ```
